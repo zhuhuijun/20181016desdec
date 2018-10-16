@@ -26,5 +26,11 @@
     <ClCompile Include="demo01-解密解密.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="demo02-file加密.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="demo03-file解密.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

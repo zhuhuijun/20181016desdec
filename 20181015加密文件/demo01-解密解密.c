@@ -4,7 +4,7 @@
 #include <string.h>
 #include "des.h"
 
-int main(int arg, char *args[])
+int main001(int arg, char *args[])
 {
 	int ret;
 	char *pdata = "1234";
