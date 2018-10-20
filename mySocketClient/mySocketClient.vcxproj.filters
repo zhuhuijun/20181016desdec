@@ -21,12 +21,18 @@
     <ClInclude Include="itcastlog.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="memwatch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="itcastlog.c">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="mysocketclient.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="memwatch.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

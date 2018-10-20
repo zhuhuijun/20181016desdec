@@ -4,7 +4,7 @@
 #include <string.h>
 #include "socketclientdll.h"
 
-int main(int arg, char *args[])
+int main002(int arg, char *args[])
 {
 	void *handle = NULL;
 	int ret = 0;

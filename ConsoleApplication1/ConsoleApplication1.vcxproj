@@ -88,7 +88,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;MEMWATCH;MW_STDIO;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -142,9 +142,12 @@
   <ItemGroup>
     <ClCompile Include="demo01-testmain.c" />
     <ClCompile Include="demo02-testmain.c" />
+    <ClCompile Include="demo03-memwatch.c" />
+    <ClCompile Include="memwatch.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="itcastlog.h" />
+    <ClInclude Include="memwatch.h" />
     <ClInclude Include="socketclientdll.h" />
   </ItemGroup>
   <ItemGroup>

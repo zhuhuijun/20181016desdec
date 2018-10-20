@@ -140,10 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="itcastlog.h" />
+    <ClInclude Include="memwatch.h" />
     <ClInclude Include="socketclientdll.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="itcastlog.c" />
+    <ClCompile Include="memwatch.c" />
     <ClCompile Include="mysocketclient.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
